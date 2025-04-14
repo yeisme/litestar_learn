@@ -1,0 +1,12 @@
+[project]
+name = "litestar-learn"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "litestar[opentelemetry,standard]>=2.15.2",
+    "pydantic>=2.11.3",
+    "ruff>=0.11.5",
+    "uvicorn>=0.34.0",
+]
